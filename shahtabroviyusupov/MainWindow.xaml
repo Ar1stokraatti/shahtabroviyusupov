@@ -7,19 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.RowDefinitions>
-            <Grid.RowDefinition Height="Auto"/>
-            <Grid.RowDefinition Height="Auto"/>
-            <Grid.RowDefinition Height="Auto"/>
-            <Grid.RowDefinition Height="Auto"/>
-            <Grid.RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <Grid.ColumnDefinition Width="Auto"/>
-            <Grid.ColumnDefinition Width="Auto"/>
-            <Grid.ColumnDefinition Width="Auto"/>
-            <Grid.ColumnDefinition Width="Auto"/>
-        </Grid.ColumnDefinitions>
+        
 
         <TextBox Name="txtResult" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5" Grid.ColumnSpan="4"/>
 
@@ -41,8 +29,5 @@
         <Button Content="0" Name="btn0" Click="button_Click" Grid.Row="4" Grid.Column="0"/>
         <Button Content="." Name="btnDecimal" Click="button_Click" Grid.Row="4" Grid.Column="1"/>
         <Button Content="=" Name="btnEquals" Click="button_Click" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2"/>
-    </Grid>
-    </Grid>
-
     </Grid>
 </Window>
