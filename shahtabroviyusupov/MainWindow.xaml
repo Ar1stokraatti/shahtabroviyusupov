@@ -1,0 +1,48 @@
+﻿<Window x:Class="shahtabroviyusupov.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:shahtabroviyusupov"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <Grid.RowDefinition Height="Auto"/>
+            <Grid.RowDefinition Height="Auto"/>
+            <Grid.RowDefinition Height="Auto"/>
+            <Grid.RowDefinition Height="Auto"/>
+            <Grid.RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <Grid.ColumnDefinition Width="Auto"/>
+            <Grid.ColumnDefinition Width="Auto"/>
+            <Grid.ColumnDefinition Width="Auto"/>
+            <Grid.ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Name="txtResult" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5" Grid.ColumnSpan="4"/>
+
+        <Button Content="7" Name="btn7" Click="button_Click" Grid.Row="1" Grid.Column="0"/>
+        <Button Content="8" Name="btn8" Click="button_Click" Grid.Row="1" Grid.Column="1"/>
+        <Button Content="9" Name="btn9" Click="button_Click" Grid.Row="1" Grid.Column="2"/>
+        <Button Content="/" Name="btnDivide" Click="button_Click" Grid.Row="1" Grid.Column="3"/>
+
+        <Button Content="4" Name="btn4" Click="button_Click" Grid.Row="2" Grid.Column="0"/>
+        <Button Content="5" Name="btn5" Click="button_Click" Grid.Row="2" Grid.Column="1"/>
+        <Button Content="6" Name="btn6" Click="button_Click" Grid.Row="2" Grid.Column="2"/>
+        <Button Content="*" Name="btnMultiply" Click="button_Click" Grid.Row="2" Grid.Column="3"/>
+
+        <Button Content="1" Name="btn1" Click="button_Click" Grid.Row="3" Grid.Column="0"/>
+        <Button Content="2" Name="btn2" Click="button_Click" Grid.Row="3" Grid.Column="1"/>
+        <Button Content="3" Name="btn3" Click="button_Click" Grid.Row="3" Grid.Column="2"/>
+        <Button Content="-" Name="btnSubtract" Click="button_Click" Grid.Row="3" Grid.Column="3"/>
+
+        <Button Content="0" Name="btn0" Click="button_Click" Grid.Row="4" Grid.Column="0"/>
+        <Button Content="." Name="btnDecimal" Click="button_Click" Grid.Row="4" Grid.Column="1"/>
+        <Button Content="=" Name="btnEquals" Click="button_Click" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2"/>
+    </Grid>
+    </Grid>
+
+    </Grid>
+</Window>
